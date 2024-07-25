@@ -1,0 +1,32 @@
+/* Main Header */
+#main-header {
+    min-height: 100px;
+    background-color: #2C3E50;
+}
+
+/* Jumbotron */
+#jumbotron {
+    min-height: 500px;
+    background-color: #1ABC9C;
+}
+
+/* About Section */
+#about {
+    background-color: #1ABC9C;
+}
+
+/* Main Footer */
+#main-footer > .info {
+    background-color: #3A546D;
+}
+
+#main-footer > .copyright {
+    background-color: #2C3E50;
+}
+
+/* Utilities */
+[class^="col"] {
+    color: #FFF;
+    background-color: orangered;
+    border: 2px dashed #FFF;
+}
