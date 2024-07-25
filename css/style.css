@@ -55,6 +55,36 @@
     background-color: #FFF;
 }
 
+/* Contact Me Section */
+#contacts {
+    color: #2C3E50;
+}
+
+#contacts h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contacts .btn {
+    background-color: #1ABC9C;
+    color: #FFF;
+}
+
+#contacts .form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid darkgray;
+    padding-left: 0;
+}
+
+#contacts .h-rule {
+    background-color: #2C3E50;
+}
+
+#contacts ::placeholder {
+    color: #2C3E50;
+}
+
 /* Main Footer */
 #main-footer > .main-footer-top {
     background-color: #3A546D;
