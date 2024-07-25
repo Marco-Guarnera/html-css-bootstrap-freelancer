@@ -39,6 +39,20 @@
 /* About Section */
 #about {
     background-color: #1ABC9C;
+    color: #FFF;
+    text-align: center;
+}
+
+#about h2 {
+    text-transform: uppercase;
+}
+
+#about p {
+    text-align: left;
+}
+
+#about .h-rule {
+    background-color: #FFF;
 }
 
 /* Main Footer */
