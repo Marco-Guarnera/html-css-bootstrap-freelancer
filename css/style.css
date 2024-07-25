@@ -1,7 +1,12 @@
 /* Main Header */
 #main-header {
-    min-height: 100px;
     background-color: #2C3E50;
+}
+
+#main-header a {
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Jumbotron */
@@ -25,7 +30,7 @@
 }
 
 /* Utilities */
-[class^="col"] {
+main [class^="col"] {
     color: #FFF;
     background-color: orangered;
     border: 2px dashed #FFF;
