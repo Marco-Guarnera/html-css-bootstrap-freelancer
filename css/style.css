@@ -16,11 +16,11 @@
 }
 
 /* Main Footer */
-#main-footer > .info {
+#main-footer > .main-footer-top {
     background-color: #3A546D;
 }
 
-#main-footer > .copyright {
+#main-footer > .main-footer-bottom {
     background-color: #2C3E50;
 }
 
