@@ -11,8 +11,20 @@
 
 /* Jumbotron */
 #jumbotron {
-    min-height: 500px;
     background-color: #1ABC9C;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#jumbotron img {
+    width: 50%;
+}
+
+#jumbotron .h-rule{
+    height: 4px;
+    width: 15%;
+    background-color: #FFF;
 }
 
 /* About Section */
@@ -30,8 +42,3 @@
 }
 
 /* Utilities */
-main [class^="col"] {
-    color: #FFF;
-    background-color: orangered;
-    border: 2px dashed #FFF;
-}
