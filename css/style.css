@@ -21,10 +21,19 @@
     width: 50%;
 }
 
-#jumbotron .h-rule{
-    height: 4px;
-    width: 15%;
+#jumbotron .h-rule {
     background-color: #FFF;
+}
+
+/* Portfolio Section */
+#portfolio {
+    color: #2C3E50;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#portfolio .h-rule {
+    background-color: #2C3E50;
 }
 
 /* About Section */
@@ -42,3 +51,8 @@
 }
 
 /* Utilities */
+.h-rule {
+    height: 4px;
+    width: 15%;
+    border-radius: 5px;
+}
